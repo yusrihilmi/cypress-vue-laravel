@@ -85,12 +85,12 @@ const deleteProduct = (id) => {
                     <p>Name</p>
                     <p>Description</p>
                 </div>
-                <div class="table-product-body" v-for="item in products" :key="item.id" v-if="products.length > 0">
+                <div class="table-product-body" v-for="(item, index) in products" :key="item.id" v-if="products.length > 0">
                     <img :src="ourImage(item.photo)" v-if="item.photo"/>
                     <p>{{ item.name }}</p>
                     <p>{{ item.description }}</p>
                     <div>
-                        <button class="btn btn-success" @click="onEdit(item.id)">
+                        <button :id="'edit-' + index" class="btn btn-success" @click="onEdit(item.id)">
                             <i class="fas fa-pencil-alt"></i>
                         </button>
                         <button class="btn btn-danger" @click="deleteProduct(item.id)">

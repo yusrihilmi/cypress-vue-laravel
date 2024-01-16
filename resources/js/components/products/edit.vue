@@ -91,9 +91,9 @@ const updateProduct = () => {
             <div class="card">
                 <div>
                     <label>Name</label>
-                    <input type="text" v-model="form.name">
+                    <input type="text" id="name-input" v-model="form.name">
                     <label>Description (optional)</label>
-                    <textarea cols="10" rows="5" v-model="form.description"></textarea>
+                    <textarea id="desc-input" cols="10" rows="5" v-model="form.description"></textarea>
                     <label>Add Image</label>
                     <img :src="getPhoto()" alt="" class="img-product" />
                     <input type="file" @change="updatePhoto">
@@ -101,7 +101,7 @@ const updateProduct = () => {
             </div>
             <div class="titlebar">
                 <h1></h1>
-                <button @click="updateProduct()">Save</button>
+                <button id="save-button" @click="updateProduct()">Save</button>
             </div>
         </section>
     </div>
