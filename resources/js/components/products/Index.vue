@@ -89,7 +89,6 @@ const deleteProduct = (id) => {
                     <img :src="ourImage(item.photo)" v-if="item.photo"/>
                     <p>{{ item.name }}</p>
                     <p>{{ item.description }}</p>
-                    <p>Inventory</p>
                     <div>
                         <button class="btn btn-success" @click="onEdit(item.id)">
                             <i class="fas fa-pencil-alt"></i>
