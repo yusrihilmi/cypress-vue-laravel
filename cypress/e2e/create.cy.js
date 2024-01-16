@@ -7,11 +7,7 @@ describe('Create operation', () => {
     cy.get('#create-button').click();
     cy.get('#name-input').type('New Item');
     cy.get('#desc-input').type('New Item');
-    cy.get('input[type="file"]').selectFile({
-      contents: Cypress.Buffer.from('file contents'),
-      fileName: 'BionicERD.png',
-      lastModified: Date.now(),
-    });
+    cy.get('input[type=file]').selectFile('./cypress/fixtures/BionicERD.png');
     cy.get('#save-button').click();
   });
 });
