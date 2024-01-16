@@ -6,7 +6,7 @@ describe('Create operation', () => {
     // Add your Cypress commands to interact with your application
     cy.get('#edit-0').click();
     cy.get('#name-input').type('New Item edit');
-    cy.get('#desc-input').type('New Item');
+    cy.get('#desc-input').type('New Item edited');
     cy.get('input[type=file]').selectFile('./cypress/fixtures/BionicERD.png');
     cy.get('#save-button').click();
   });
