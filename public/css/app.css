@@ -26,6 +26,11 @@
     
   }
   
+  ::-moz-selection {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+  }
+  
   ::selection {
     background-color: var(--primary-color);
     color: var(--text-light);
@@ -364,7 +369,9 @@
                 
   }
   .search-select {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #eeeeee;
     color: #6a727a;
     width: 100%;
