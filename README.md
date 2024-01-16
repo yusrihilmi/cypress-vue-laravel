@@ -1,8 +1,7 @@
 *Info
 
 - Disini saya menggunakan laravel karena sebetulnya saya ingin mencoba menggunakan java spring boot tetapi device nya tidak memadai dan membuat crash terus - menerus.
-- Untuk cypress nya sudah berhasil di inject tetapi masih belum sempurna untuk testing automation menggunakan cycpress, itu juga kembali dengan device yang membuat tidak bisa melakukan automation test secara optimal karena cukup berat untuk menjalankan nya
-- Selama saya test manual untuk CRUD dan beberapa bugs nya sudah cukup baik, mohon maaf jika ada beberapa kesalahan atau belum sesuai dengan yang diminta
+- Untuk cypress nya sudah berhasil di inject dan untuk crud nya saya test automationnya sudah lancar tidak ada kendala. Mohon maaf jika tidak bisa melakukan berbagai test karena device nya tidak memadai
 
 Terima kasih
 
