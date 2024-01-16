@@ -93,8 +93,8 @@ const deleteProduct = (id) => {
                         <button :id="'edit-' + index" class="btn btn-success" @click="onEdit(item.id)">
                             <i class="fas fa-pencil-alt"></i>
                         </button>
-                        <button class="btn btn-danger" @click="deleteProduct(item.id)">
-                            <i class="far fa-trash-alt"></i>
+                        <button :id="'delete-' + index" class="btn btn-danger" @click="deleteProduct(item.id)">
+                            <i  class="far fa-trash-alt"></i>
                         </button>
                     </div>
                 </div>

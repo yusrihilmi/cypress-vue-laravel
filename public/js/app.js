@@ -21269,7 +21269,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "fas fa-pencil-alt"
 }, null, -1 /* HOISTED */);
 var _hoisted_9 = [_hoisted_8];
-var _hoisted_10 = ["onClick"];
+var _hoisted_10 = ["id", "onClick"];
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "far fa-trash-alt"
 }, null, -1 /* HOISTED */);
@@ -21303,6 +21303,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         return $setup.onEdit(item.id);
       }
     }, [].concat(_hoisted_9), 8 /* PROPS */, _hoisted_7), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+      id: 'delete-' + index,
       "class": "btn btn-danger",
       onClick: function onClick($event) {
         return $setup.deleteProduct(item.id);
