@@ -92,7 +92,7 @@ const updateProduct = () => {
                 <div>
                     <label>Name</label>
                     <input type="text" id="name-input" v-model="form.name">
-                    <label>Description (optional)</label>
+                    <label>Description</label>
                     <textarea id="desc-input" cols="10" rows="5" v-model="form.description"></textarea>
                     <label>Add Image</label>
                     <img :src="getPhoto()" alt="" class="img-product" />
