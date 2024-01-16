@@ -1,3 +1,14 @@
+*Info
+
+- Disini saya menggunakan laravel karena sebetulnya saya ingin mencoba menggunakan java spring boot tetapi device nya tidak memadai dan membuat crash terus - menerus.
+- Untuk cypress nya sudah berhasil di inject tetapi masih belum sempurna untuk testing automation menggunakan cycpress, itu juga kembali dengan device yang membuat tidak bisa melakukan automation test secara optimal karena cukup berat untuk menjalankan nya
+- Selama saya test manual untuk CRUD dan beberapa bugs nya sudah cukup baik, mohon maaf jika ada beberapa kesalahan atau belum sesuai dengan yang diminta
+
+Terima kasih
+
+Yusri Hilmi Muhammad
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
